@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conatiner{
+    width: 100vw;
+    height: 100vh;
+    /* overflow-x: none; */
+    border: 2px solid black;
+}
+.navbar{
+    width: 100vw;
+    min-height: 10px;
+    background: rgb(23,17,108);
+    background: linear-gradient(90deg, rgba(23,17,108,1) 0%, rgba(16,14,84,0.8603816526610644) 24%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#navlist{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    list-style: none;
+    /* padding: 10px; */
+    height: 10vh;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    
+}
+#brandname{
+    font-size: 3rem;
+    color:#fff;
+    padding: 6px;
+    padding-left: 2px;
+}
+#bookmarks{
+    display: flex;
+    gap: 20px;
+    padding: 1rem;
+}
+nav{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+footer{
+    width: 100%;
+    min-height: 2rem;
+}
+.footerbox{
+    width: 100%;
+}
+.footerbox p{
+    background: rgb(23,17,108);
+    background: linear-gradient(90deg, rgba(23,17,108,1) 0%, rgba(16,14,84,0.8603816526610644) 24%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    color:#fff ; 
+    min-height: 30px; 
+    font-size: 1.5rem ;
+    width: 100%;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.leftbox{
+    position: relative;
+    position: var(left);
+}
+.leftbox img{
+    height: 20rem;
+    transition: all 0.3s linear 0s;
+    border-radius: 0.5rem; 
+    top: 10px;
+    /* border: 1px solid black; */
+}
+.leftbox img:hover{
+    transform: scale(1.1);
+}
+
+.leftbox h2{
+    font-size: 3rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.leftbox h3{
+    font-size: 2rem;
+    display: flex;
+    position: relative;
+    /* position: calc(margin-left); */
+}
+.rightbox img{
+    height: 20rem;
+    transition: all 0.3s linear 0s;
+    border-radius: 0.5rem;  
+    /* border: 1px solid black; */
+}
+.rightbox img:hover{
+    transform: scale(1.1);
+}
+.rightbox h2{
+    font-size: 3rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.rightbox h3{
+    font-size: 2rem;
+}
+.ingbox{
+    font-size: 1.5rem;
+    position: relative;
+    left: 4%;
+}
+.Recipebox{
+    font-size: 1.5rem;
+    position: relative;
+    left: 4%;
+}
